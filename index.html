@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDoList</title>
+</head>
+<body id="BodyTablero">
+    <header>
+      <h1 id="ToDoHead" class="text-center">To Do List</h1>
+      <p id="log-in-msg" style="transform: translateX(1rem);"></p>
+    </header>
+    <label for="tarea" style="transform: translateX(1rem);">Agregar nueva tarea: </label>
+    <div><input type="text" name="tarea" id="nuevaTarea" style="margin-left:1rem;margin-bottom: 0.3rem;"></div>
+    <button type="button" class="btn btn-secondary" onclick="Agregar()" style="margin-left:1rem;margin-bottom: 0.3rem;">Agregar</button>
+    <!--Tarjeta y tabla-->
+    <div class="card-deck" style="margin-left:2.5rem;margin-right:2.5rem">
+        <div id="EsteMes" class="card">
+          <div class="card-body">
+            <table class="table table-striped table-dark" id="tareas" alt="Tabla">
+              <tr>
+                <th id="Actividades" style="font-weight: bold;text-align:center;font-size: 1.5rem;">Actividades</th>
+              </tr>
+            </table>
+          </div>
+      </div>
+</body>
+<script src="js/script.js"></script>
+</html>

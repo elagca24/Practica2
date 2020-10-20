@@ -1,0 +1,36 @@
+/*tablero.html*/
+#BodyTablero{
+    /* Imagen de fondo */
+    background-image: url(https://picjumbo.com/wp-content/uploads/sunset-ocean-free-photo-DSC04212-2210x1473.jpg);
+    /* Full height */
+    height: 100%;
+    /* Centrando y escalando la imagen de fondo */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#ToDoHead{
+    background-image: url(https://www.seekpng.com/png/full/19-197623_banner-pink-png-rectangle-pink-png.png);
+        /* Full height */
+        height: 100%;
+        /* Centrando y escalando la imagen de fondo */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        position: static;
+    /*fuente*/
+    font-weight: bold;
+    transform: translateY(2rem);
+}
+#Actividades{
+    background-image: url(https://www.seekpng.com/png/full/19-197623_banner-pink-png-rectangle-pink-png.png);
+    /* Full height */
+    height: 100%;
+    /* Centrando y escalando la imagen de fondo */
+    background-position-x: center;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    position: relative;
+}
